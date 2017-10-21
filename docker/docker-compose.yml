@@ -3,7 +3,7 @@ services:
   db:
     image: mysql:latest
     environment:
-      - MYSQL_ROOT_PASSWORD=wephi1234
+      - MYSQL_ROOT_PASSWORD=admin888
     volumes:
       - ./data/db:/var/lib/mysql
   nginx:
